@@ -74,7 +74,7 @@ rel_data %>%
   theme_minimal()
 ```
 
-```{r max-new-cases}
+```{r max-new-deaths}
 rel_data %>% 
   arrange(desc(new_deaths_per_million))
 ```
